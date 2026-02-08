@@ -5,6 +5,10 @@ from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
 
+nltk.download('punkt')
+nltk.download('punkt_tab')  # Specifically needed for 2025/2026 versions
+nltk.download('stopwords')
+
 ps = PorterStemmer()
 
 
